@@ -3,9 +3,9 @@ import { BLOG_INDEX_ROUTE, CONTACT_ROUTE, MAILING_LIST_ROUTE } from '../../routi
 import styles from './MainNavigation.module.css';
 
 const items = [
-  { path: BLOG_INDEX_ROUTE, label: 'My Blog' },
+  { path: BLOG_INDEX_ROUTE, label: 'Blog' },
   { path: CONTACT_ROUTE, label: 'Contact' },
-  { path: MAILING_LIST_ROUTE, label: 'Mailing List' }
+  { path: MAILING_LIST_ROUTE, label: 'Join Mailing List' }
 ];
 
 export const NavItems = () => {
