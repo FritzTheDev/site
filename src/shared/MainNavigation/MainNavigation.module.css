@@ -6,7 +6,7 @@
   box-shadow: 0px 1em 1.5em black;
   border-bottom-right-radius: 2em;
   border-bottom-left-radius: 2em;
-  padding: 0.25em 1.5em;
+  padding: 0em 2em;
   align-items: center;
   justify-content: space-between;
   min-height: 4em;
@@ -16,7 +16,7 @@
   color: rgba(255, 255, 255, 0.85);
   font-family: 'Russo One', sans-serif;
   font-weight: 500;
-  font-size: 1.5em;
+  font-size: 2em;
   margin: 0;
 }
 .navBrand:hover {
@@ -59,5 +59,16 @@
     min-height: 4em;
     font-size: 1.25em;
     color: rgba(255, 255, 255, 0.7);
+  }
+
+  li.navItem:hover {
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      transparent,
+      transparent,
+      transparent,
+      white
+    );
+    color: rgba(255, 255, 255, 0.95);
   }
 }
