@@ -39,7 +39,7 @@
     display: none;
   }
 }
-
+/* Desktop Specific */
 @media only screen and (min-width: 800px) {
   button.mobileMenuButton {
     display: none;
@@ -58,6 +58,7 @@
     padding-right: 1em;
     min-height: 4em;
     font-size: 1.25em;
+    font-family: 'Russo One';
     color: rgba(255, 255, 255, 0.7);
   }
 
