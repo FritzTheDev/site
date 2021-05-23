@@ -13,26 +13,27 @@
 }
 
 .navBrand {
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.9);
   font-family: 'Fugaz One', sans-serif;
   font-weight: 500;
   font-size: 2em;
   margin: 0;
 }
 .navBrand:hover {
-  color: rgba(255, 255, 255, 0.95);
+  color: white;
 }
 
 /* Mobile  */
 @media only screen and (max-width: 799px) {
   button.mobileMenuButton {
-    color: white;
+    color: rgba(255, 255, 255, 0.85);
     display: block;
     background-color: transparent;
-    border: 2px solid white;
-    border-radius: 0.5em;
+    border: 2px solid rgba(255, 255, 255, 0.85);
+    border-radius: 0.35em;
     font-size: 1.25em;
     padding: 0.5em;
+    font-family: 'Russo One';
   }
 
   ul.navList {

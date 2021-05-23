@@ -5,7 +5,7 @@ import { INDEX_ROUTE } from '../../routing';
 import styles from './MainNavigation.module.css';
 import { NavItems } from './NavItems';
 
-export const MainNavigation = () => {
+export const MainNav = () => {
   return (
     <nav className={styles.navigation}>
       <Link to={INDEX_ROUTE}>
