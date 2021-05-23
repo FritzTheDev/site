@@ -1,0 +1,63 @@
+/* All Screen Sizes */
+.navigation {
+  display: flex;
+  color: white;
+  background-image: linear-gradient(-0.125turn, darkblue, indigo 50%);
+  box-shadow: 0px 1em 1.5em black;
+  border-bottom-right-radius: 2em;
+  border-bottom-left-radius: 2em;
+  padding: 0.25em 1.5em;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 4em;
+}
+
+.navBrand {
+  color: rgba(255, 255, 255, 0.85);
+  font-family: 'Russo One', sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+  margin: 0;
+}
+.navBrand:hover {
+  color: rgba(255, 255, 255, 0.95);
+}
+
+/* Mobile  */
+@media only screen and (max-width: 799px) {
+  button.mobileMenuButton {
+    color: white;
+    display: block;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 0.5em;
+    font-size: 1.25em;
+    padding: 0.5em;
+  }
+
+  ul.navList {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  button.mobileMenuButton {
+    display: none;
+  }
+
+  ul.navList {
+    margin: 0;
+    padding-left: 2em;
+    display: flex;
+  }
+
+  li.navItem {
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    min-height: 4em;
+    font-size: 1.25em;
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
