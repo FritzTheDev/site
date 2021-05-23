@@ -5,4 +5,4 @@ export const BLOG_POST_ROUTE = '/blog/:id';
 
 export const CONTACT_ROUTE = '/contact';
 
-export const NOT_FOUND_ROUTE = '/404';
+export const NOT_FOUND_ROUTE = '/fourzerofour';
