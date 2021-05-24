@@ -7,6 +7,6 @@ export const DEMO_INDEX_ROUTE = '/demos';
 
 export const CONTACT_ROUTE = '/contact';
 
-export const ABOUT_ROUTE = '/about';
+export const PROJECTS_ROUTE = '/projects';
 
 export const NOT_FOUND_ROUTE = '/fourzerofour';

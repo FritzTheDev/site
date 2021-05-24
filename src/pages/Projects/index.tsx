@@ -1,3 +1,3 @@
 import { MainLayout } from "../../shared";
 
-export const About = () => <MainLayout />
+export const Projects = () => <MainLayout />

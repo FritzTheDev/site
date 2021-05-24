@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
-import { CONTACT_ROUTE, ABOUT_ROUTE, INDEX_ROUTE } from '../../routing';
+import { CONTACT_ROUTE, PROJECTS_ROUTE, INDEX_ROUTE } from '../../routing';
 import styles from './MainNav.module.css';
 
 const items = [
   { path: INDEX_ROUTE, label: 'Home' },
-  { path: ABOUT_ROUTE, label: 'About' },
+  { path: PROJECTS_ROUTE, label: 'Projects' },
   { path: CONTACT_ROUTE, label: 'Contact' }
 ];
 

@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom';
-import { CONTACT_ROUTE, ABOUT_ROUTE, INDEX_ROUTE } from '../../routing';
+import { CONTACT_ROUTE, PROJECTS_ROUTE, INDEX_ROUTE } from '../../routing';
 
 import styles from './MobileNav.module.css';
 
 const items = [
   { path: INDEX_ROUTE, label: 'Home' },
-  { path: ABOUT_ROUTE, label: 'About' },
-  { path: CONTACT_ROUTE, label: 'Contact Me' },
+  { path: PROJECTS_ROUTE, label: 'Projects' },
+  { path: CONTACT_ROUTE, label: 'Contact' },
 ];
 
 export const NavItems = () => {
