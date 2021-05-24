@@ -1,0 +1,68 @@
+@media only screen and (min-width: 1100px) {
+  div.welcomeBar {
+    grid-column: 1 / 9;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 2em;
+    border-radius: 1.5em;
+    box-shadow: 0.2em 0.2em 1em black;
+  }
+
+  div.welcomeBar img {
+    height: 18em;
+    border: 1px solid gray;
+    border-radius: 3em;
+    margin-right: 2em;
+  }
+
+  div.welcomeBar div h1 {
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 2em;
+    margin: 0px;
+  }
+
+  div.welcomeBar div p {
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  div.welcomeBar {
+    grid-column: 1 / 13;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 2em;
+    border-radius: 1.5em;
+    box-shadow: 0.2em 0.2em 1em black;
+  }
+
+  div.welcomeBar img {
+    height: 12em;
+    border: 1px solid gray;
+    border-radius: 1000em;
+    margin-bottom: 1em;
+  }
+
+  div.welcomeBar div h1 {
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 2em;
+    margin: 0px;
+  }
+
+  div.welcomeBar div p {
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 1em;
+  }
+}
+
+a.link {
+  color: blue;
+}

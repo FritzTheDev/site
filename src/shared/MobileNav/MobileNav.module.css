@@ -33,6 +33,7 @@ h3.mobileNavMenuHeader {
   color: white;
   margin-top: -0.125em;
   margin-bottom: -0.5em;
+  text-decoration: solid white underline;
   font-family: 'Fugaz One', sans-serif;
 }
 

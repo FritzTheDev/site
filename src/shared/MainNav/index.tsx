@@ -16,7 +16,7 @@ export const MainNav = ({
   return (
     <nav className={styles.navigation}>
       <Link to={INDEX_ROUTE}>
-        <h1 className={styles.navBrand}>Fritz Johnson</h1>
+        <span className={styles.navBrand}>Fritz Johnson</span>
       </Link>
       <button onClick={() => setOpen(true)} className={styles.mobileMenuButton}>
         Menu
