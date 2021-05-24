@@ -1,0 +1,62 @@
+div.mobileNavBackdrop {
+  z-index: 1;
+  position: fixed;
+  top: 0%;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+nav.mobileNavMenu {
+  position: fixed;
+  display: flex;
+  z-index: 2;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 15vh;
+  left: 10vw;
+  width: 80vw;
+  height: 70vh;
+  background-image: linear-gradient(-0.125turn, darkblue 20%, indigo 60%);
+  border-radius: 2em;
+}
+
+div.mobileNavContentWrapper {
+  padding: 1em;
+}
+
+h3.mobileNavMenuHeader {
+  text-align: center;
+  font-size: 2.25em;
+  font-weight: 500;
+  color: white;
+  margin-top: -0.125em;
+  margin-bottom: -0.5em;
+  font-family: 'Fugaz One', sans-serif;
+}
+
+ul.mobileNavList {
+  padding-left: 0px;
+  margin-bottom: 0px;
+  margin-top: 3em;
+}
+
+li.navItem {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 1.15em;
+  margin-bottom: 1.15em;
+  font-family: 'Russo One', sans-serif;
+  color: white;
+}
+
+li.lastNavItem {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 2em;
+  margin-bottom: 1.15em;
+  font-family: 'Russo One', sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+}
