@@ -16,7 +16,7 @@ export const NavItems = () => {
         <Link key={path} to={path}>
           <li className={styles.navItem}>{label}</li>
         </Link>
-      ))}{' '}
+      ))}
     </>
   );
 };
