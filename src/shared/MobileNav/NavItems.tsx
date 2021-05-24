@@ -1,9 +1,10 @@
 import { Link } from 'react-router-dom';
-import { BLOG_INDEX_ROUTE, CONTACT_ROUTE, ABOUT_ROUTE } from '../../routing';
+import { BLOG_INDEX_ROUTE, CONTACT_ROUTE, ABOUT_ROUTE, INDEX_ROUTE } from '../../routing';
 
 import styles from './MobileNav.module.css';
 
 const items = [
+  { path: INDEX_ROUTE, label: 'Home' },
   { path: BLOG_INDEX_ROUTE, label: 'My Blog' },
   { path: ABOUT_ROUTE, label: 'About' },
   { path: CONTACT_ROUTE, label: 'Contact Me' },

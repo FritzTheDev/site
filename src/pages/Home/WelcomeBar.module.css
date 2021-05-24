@@ -1,19 +1,23 @@
 @media only screen and (min-width: 1100px) {
   div.welcomeBar {
-    grid-column: 1 / 9;
+    grid-column: 1 / 13;
     display: flex;
     align-items: center;
     background-color: white;
-    padding: 2em;
     border-radius: 1.5em;
     box-shadow: 0.2em 0.2em 1em black;
   }
 
   div.welcomeBar img {
-    height: 18em;
-    border: 1px solid gray;
-    border-radius: 3em;
-    margin-right: 2em;
+    min-height: 65vh;
+    height: 100%;
+    background-image: linear-gradient(-0.125turn, darkblue, indigo 75%);
+    border-top-left-radius: 1.5em;
+    border-bottom-left-radius: 1.5em;
+  }
+
+  div.welcomeBar div {
+    margin: 2em;
   }
 
   div.welcomeBar div h1 {
@@ -44,7 +48,7 @@
 
   div.welcomeBar img {
     height: 12em;
-    border: 1px solid gray;
+    background-image: linear-gradient(-0.125turn, darkblue, indigo 75%);
     border-radius: 1000em;
     margin-bottom: 1em;
   }

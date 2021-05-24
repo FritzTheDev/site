@@ -3,11 +3,11 @@ import styles from './WelcomeBar.module.css';
 export const WelcomeBar = () => {
   return (
     <div className={styles.welcomeBar}>
-      <img src='/fritz.jpeg' alt='Portrait of Fritz Johnson' />
+      <img src='/fritz-transparent.png' alt='Portrait of Fritz Johnson' />
       <div>
         <h1>My name is Fritz. I like using React, Express, & TailwindCSS</h1>
         <p>
-          I've been programming since 2017, on a mostly self-taught basis - during that time, I've
+          I've been programming since 2017, mostly self-taught. During that time, I've
           worked on dozens of important projects for various employers including{' '}
           <a className={styles.link} href='https://bitwiseindustries.com/'>
             Bitwise Industries
