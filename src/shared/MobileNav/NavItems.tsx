@@ -5,8 +5,8 @@ import styles from './MobileNav.module.css';
 
 const items = [
   { path: BLOG_INDEX_ROUTE, label: 'My Blog' },
+  { path: ABOUT_ROUTE, label: 'About' },
   { path: CONTACT_ROUTE, label: 'Contact Me' },
-  { path: ABOUT_ROUTE, label: 'About Fritz' }
 ];
 
 export const NavItems = () => {

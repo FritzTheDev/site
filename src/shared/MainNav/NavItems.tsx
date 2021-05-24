@@ -4,8 +4,8 @@ import styles from './MainNav.module.css';
 
 const items = [
   { path: BLOG_INDEX_ROUTE, label: 'Blog' },
-  { path: CONTACT_ROUTE, label: 'Contact' },
-  { path: ABOUT_ROUTE, label: 'About Fritz' }
+  { path: ABOUT_ROUTE, label: 'About' },
+  { path: CONTACT_ROUTE, label: 'Contact' }
 ];
 
 export const NavItems = () => {
