@@ -66,3 +66,7 @@
 a.link {
   color: blue;
 }
+
+a.link:hover {
+  color: darkblue;
+}
