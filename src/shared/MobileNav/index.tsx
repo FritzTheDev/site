@@ -22,7 +22,7 @@ export const MobileNav = ({
           <ul className={styles.mobileNavList}>
             <NavItems />
             <li onClick={() => setOpen(false)} className={`${styles.lastNavItem} ${styles.closeButton}`}>
-              Close Menu
+             Close
             </li>
           </ul>
         </div>
